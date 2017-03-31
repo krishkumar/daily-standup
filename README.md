@@ -2,14 +2,14 @@
 
 Bitbar is a Mac OS X menu bar utilty - https://getbitbar.com/
 
-## 🥇 Gold medal - 5 commits today
+## 🥇 Gold medal - 5+ commits
 ![5 commits today](daily-standup-gold.png)
 
-## 🥈 Silver medal - 3 commits today
+## 🥈 Silver medal - 3 commits
 ![3 days since last commit](daily-standup-silver.png)
 
-## 🥉 Bronze medal - 1 commit today
-![3 days since last commit](daily-standup-silver.png)
+## 🥉 Bronze medal - 1 commit
+![3 days since last commit](daily-standup-bronze.png)
 
 ## 🚨 No commits for more than 7 days
 ![When you have not committed code for more than 7 days](daily-standup-alert.png)
@@ -22,6 +22,19 @@ Bitbar is a Mac OS X menu bar utilty - https://getbitbar.com/
 
  For example -
 
- ```PROJECTS_DIRECTORY = /Users/krishna/projects```
-
+```
+ PROJECTS_DIRECTORY = /Users/krishna/projects
+```
 Change this according to your setup.
+
+## DEPENDENCIES
+
+You need to have git-standup installed.
+
+To install git-standup on OSX with homebrew, open Terminal and run -
+
+```
+$ brew install git-standup
+```
+
+For other installation options, see this page - https://github.com/kamranahmedse/git-standup
